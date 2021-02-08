@@ -1,0 +1,175 @@
+// ===================
+// ===== GENERAL =====
+// ===================
+
+$accentColor: #fbb038;
+$primeColor: #00205c;
+$primeColorTransparent: #00205c90;
+$lightColor: #07d3ff;
+
+.flexContain {
+    display: flex;
+}
+
+// ===================
+// ===== ACCUEIL =====
+// ===================
+
+.mainHome {
+    width: 100%;
+    justify-content: space-around;
+
+    * {
+        margin-top: 20px;
+    }
+
+    span {
+        margin-top: 0;
+    }
+
+    div {
+        width: 40%;
+        text-align: center;
+
+        div {
+            width: 100%;
+        }
+    }
+
+    img {
+        width: 40%;
+        height: auto;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+}
+
+.mainValeur {
+    background-image: url("../../public/img/chiffresBg.png");
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+
+    * {
+        margin-top: 20px;
+    }
+
+    .flexContain {
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    p {
+        width: 300px;
+    }
+
+    .valeur {
+        width: 25%;
+    }
+}
+
+
+.couleurPrimaire {
+    background-image: linear-gradient($accentColor, lighten($accentColor, 20%)) !important;
+    // background-color: $accentColor !important;
+    color: $primeColor !important;
+}
+
+.btnCard {
+    margin-bottom: 10px !important;
+    background-image: linear-gradient($accentColor, lighten($accentColor, 20%))
+}
+
+.v-card {
+    background-image: linear-gradient($primeColor, $lightColor);
+    border: 0 !important;
+    border-radius: 3% !important;
+    // background-color: $primeColorTransparent !important;
+    // padding: 10px;
+    color: white !important;
+    box-shadow: 0px 2px 4px $primeColorTransparent !important;
+
+    .v-card__title {
+        flex-direction: column;
+    }
+}
+
+.rechLeft {
+    background-image: linear-gradient($accentColor, lighten($accentColor, 20%));
+    border: 0 !important;
+    border-radius: 3% !important;
+    // background-color: $accentColor !important;
+    color: $primeColor !important;
+
+    hr {
+        border-color: $primeColor !important;
+    }
+
+    *::-moz-selection {
+        background-color: $primeColor !important;
+    }
+
+    *::selection {
+        background-color: $primeColor !important;
+    }
+
+}
+
+// ==================
+// ==== AFFICHAGE ===
+// ===== PROFIL =====
+// ==================
+
+.bioEtAutre {
+    * {
+        color: $primeColor;
+    }
+
+    h1 {
+        color: $accentColor;
+    }
+}
+
+.v-dialog {
+    >.v-sheet {
+        background-image: none !important;
+        padding: 20px;
+        border-radius: 0 !important;
+
+        >.row {
+            justify-content: center;
+
+            >.v-sheet>.col>.v-sheet {
+                background-image: none !important;
+                border-radius: 0 !important;
+                padding: 5px;
+            }
+        }
+    }
+}
+
+// === TUTEUR ===
+
+.comProfilTuteur {
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 0 !important;
+
+    .row .col {
+        text-align: left;
+    }
+}
+
+// ==================
+// === Messagerie ===
+// ==================
+
+.received_msg[align="left"] p {
+    background-image: linear-gradient($primeColor, $lightColor) !important;
+    color: white !important;
+}
+
+.received_msg[align="right"] p {
+    background-image: linear-gradient($accentColor, lighten($accentColor, 20%)) !important;
+    color: $primeColor !important;
+}
