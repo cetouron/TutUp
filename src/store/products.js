@@ -1,6 +1,6 @@
 export default [
   {
-    image: '../../../assets/louis.jpg',
+    image: 'https://www.taille-age-celebrites.com/wp-content/uploads/gerard-leclerc-journaliste-homme.jpg',
     name: 'Louis',
     price: 29,
     note: 4.3,
