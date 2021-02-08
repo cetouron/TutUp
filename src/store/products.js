@@ -17,7 +17,7 @@ export default [
     new: true
   },
   {
-    image: '../../../assets/juliette.jpg',
+    image: '../../assets/juliette.jpg',
     name: 'Juliette',
     price: 19,
     note: 3.7,
@@ -33,7 +33,7 @@ export default [
     new: false
     },
   {
-    image: '../../../assets/thibault.jpg',
+    image: '../assets/thibault.jpg',
     name: 'Thibault',
     price: 10,
     note: 3.1,
@@ -50,7 +50,7 @@ export default [
     new: false
   },
   {
-    image: '../../../assets/didier.jpg',
+    image: './../assets/didier.jpg',
     name: 'Didier',
     price: 30,
     note: 4.7,
@@ -67,7 +67,7 @@ export default [
     new: true
   },
   {
-    image: '../../../assets/sophie.jpeg',
+    image: './../../assets/sophie.jpeg',
     name: 'Sophie',
     price: 9,
     note: 1.3,
@@ -84,7 +84,7 @@ export default [
     new: true
   },
   {
-    image: '../../../assets/sebastien.jpg',
+    image: 'https://www.taille-age-celebrites.com/wp-content/uploads/gerard-leclerc-journaliste-homme.jpg',
     name: 'Sebastien',
     price: 25,
     note: 2.1,
