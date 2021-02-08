@@ -1,7 +1,7 @@
 <template>
   <v-card outlined align="center">
     <v-avatar size="135" align="center">
-    <v-img :src="product.image" />
+    <v-img src="https://www.taille-age-celebrites.com/wp-content/uploads/gerard-leclerc-journaliste-homme.jpg" />
     </v-avatar>
     <v-card-title>
       {{ product.name }}
