@@ -24,7 +24,7 @@
                 <div class="chat_img">
                  
                  <v-avatar align="center">
-                  <img src="img/products/gerard.jpg" alt="sunil" />
+                  <img src="../../assets/gerard.jpg" alt="sunil" />
                  </v-avatar>
 
                 </div>
@@ -42,10 +42,12 @@
             <div class="chat_list">
               <div class="chat_people">
                 <div class="chat_img">
+                <v-avatar align="center">
                   <img
-                    src="https://ptetutorials.com/images/user-profile.png"
+                    src="https://st2.depositphotos.com/1005637/6441/i/600/depositphotos_64412309-stock-photo-friendly-middle-aged-woman.jpg"
                     alt="sunil"
                   />
+                   </v-avatar>
                 </div>
                 <div class="chat_ib">
                   <h5>Noémie<span class="chat_date">20 dec. 20</span></h5>
@@ -58,10 +60,13 @@
             <div class="chat_list">
               <div class="chat_people">
                 <div class="chat_img">
+                                  <v-avatar align="center">
+ 
                   <img
-                    src="https://ptetutorials.com/images/user-profile.png"
+                    src="https://img.freepik.com/photos-gratuite/portrait-homme-adulte-se-prepare-exercice_23-2148531067.jpg?size=338&ext=jpg"
                     alt="sunil"
                   />
+                   </v-avatar>
                 </div>
                 <div class="chat_ib">
                   <h5>Adrien<span class="chat_date">4 oct. 20</span></h5>
@@ -102,7 +107,7 @@
                       <v-col  cols="2">
                     <v-avatar align="center">
                   <img 
-                      height="40" src="img/products/gerard.jpg" />
+                      height="40" src="../../assets/gerard.jpg" />
                  </v-avatar>
                       </v-col>
                     <v-col cols="10">

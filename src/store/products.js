@@ -84,7 +84,7 @@ export default [
     new: true
   },
   {
-    image: 'https://www.taille-age-celebrites.com/wp-content/uploads/gerard-leclerc-journaliste-homme.jpg',
+    image: 'https://brainpower360.ca/wp-content/uploads/2019/10/achievement-action-action-energy-2923157-1080x675.jpg',
     name: 'Sebastien',
     price: 25,
     note: 2.1,
