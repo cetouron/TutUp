@@ -1,6 +1,6 @@
 export default [
   {
-    image: '/img/products/louis.jpg',
+    image: '../assets/products/louis.jpg',
     name: 'Louis',
     price: 29,
     note: 4.3,
@@ -17,7 +17,7 @@ export default [
     new: true
   },
   {
-    image: '/img/products/juliette.jpg',
+    image: '../assets/products/juliette.jpg',
     name: 'Juliette',
     price: 19,
     note: 3.7,
@@ -33,7 +33,7 @@ export default [
     new: false
     },
   {
-    image: '/img/products/thibault.jpg',
+    image: '../assets/products/thibault.jpg',
     name: 'Thibault',
     price: 10,
     note: 3.1,
@@ -50,7 +50,7 @@ export default [
     new: false
   },
   {
-    image: '/img/products/didier.jpg',
+    image: '../assets/products/didier.jpg',
     name: 'Didier',
     price: 30,
     note: 4.7,
@@ -67,7 +67,7 @@ export default [
     new: true
   },
   {
-    image: '/img/products/sophie.jpeg',
+    image: '../assets/products/sophie.jpeg',
     name: 'Sophie',
     price: 9,
     note: 1.3,
@@ -84,7 +84,7 @@ export default [
     new: true
   },
   {
-    image: '/img/products/sebastien.jpg',
+    image: '../assets/products/sebastien.jpg',
     name: 'Sebastien',
     price: 25,
     note: 2.1,
