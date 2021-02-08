@@ -58,8 +58,32 @@
             <v-btn to='chat' class="couleurPrimaire">Contacter</v-btn>
           </v-col>
           <v-col>
-            <v-btn class="couleurPrimaire">Signaler</v-btn>
-          </v-col>
+      <v-dialog v-model="dialog" width="600px" hight="200px">
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn class="couleurPrimaire btnCard" v-bind="attrs" v-on="on">
+            Signaler
+          </v-btn>
+        </template>
+        <v-card>
+            <h1 class="black--text text--lighten-2" align="center">Vous voulez signaler {{product.name}}</h1>
+          <br>
+           <v-textarea
+              v-model='raison'
+              auto-grow
+              filled
+              color="deep-purple"
+              label="Pourquoi ?"
+              rows="1"
+              max-widht="200"
+            ></v-textarea>
+
+            <v-btn @click.stop="dialog=false" class="red">
+            Signaler
+          </v-btn>
+        <!-- <Signaler :product="product" /> -->
+        </v-card>
+      </v-dialog>
+        </v-col>
         </v-row>
 
         <br />
@@ -147,11 +171,9 @@
 
         <span class="text--lighten-2 mr-1" align="center">
       
-          <u
-            ><h4 style="font-decoration: underline">
+         <h4>
               Discutable avec le tuteur
-            </h4></u
-          >
+            </h4>
         </span>
       </v-col>
     </v-col>

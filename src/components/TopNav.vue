@@ -2,7 +2,7 @@
   <div>
     <v-app-bar>
       <v-toolbar-side-icon>
-        <v-img src="/img/products/logomin.png" />
+        <v-img src="/img/logomin.png" />
       </v-toolbar-side-icon>
 
       <v-toolbar-title>Tut'up</v-toolbar-title>

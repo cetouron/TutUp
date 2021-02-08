@@ -1,6 +1,6 @@
 export default [
   {
-    image: 'https://www.taille-age-celebrites.com/wp-content/uploads/gerard-leclerc-journaliste-homme.jpg',
+    image: 'https://cdn-s-www.ledauphine.com/images/E66B3434-915F-4852-A09F-4C14B9611EE3/NW_detail_M/title-1576680650.jpg',
     name: 'Louis',
     price: 29,
     note: 4.3,
@@ -17,7 +17,7 @@ export default [
     new: true
   },
   {
-    image: '../../assets/juliette.jpg',
+    image: 'https://s2.dmcdn.net/v/NpfF11TWDP3Fv1nTD/x1080',
     name: 'Juliette',
     price: 19,
     note: 3.7,
@@ -33,7 +33,7 @@ export default [
     new: false
     },
   {
-    image: '../assets/thibault.jpg',
+    image: 'http://mymasterpiecesmile.com/wp-content/uploads/2018/11/Dr-Beeler-Knoxville-Dentist-Masterpiece-Smiles.jpg',
     name: 'Thibault',
     price: 10,
     note: 3.1,
@@ -50,7 +50,7 @@ export default [
     new: false
   },
   {
-    image: './../assets/didier.jpg',
+    image: 'https://cdn-images.welcometothejungle.com/L2ogcJXKl-Vo_f5z2HnFk_B0vT8kDa06mxAVEh5GDgg/rs:auto:640::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy92aWRlby9pbWFnZS85MDM0LzE1MjM2MS9nZW5zLWRlLWNvbmZpYW5jZV92aWRlb19hZjgwM2MyNy1jNDc2LTRmMWEtYWJlZC1jZDBiMTdjYzA1ZmIuanBn',
     name: 'Didier',
     price: 30,
     note: 4.7,
@@ -67,7 +67,7 @@ export default [
     new: true
   },
   {
-    image: './../../assets/sophie.jpeg',
+    image: 'https://www.leclaireurprogres.ca/wp-content/uploads/sites/33/2019/02/mylene-moisan-web.jpg',
     name: 'Sophie',
     price: 9,
     note: 1.3,
