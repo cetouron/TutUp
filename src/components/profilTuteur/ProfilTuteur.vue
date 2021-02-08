@@ -14,7 +14,7 @@
       >
         <v-col>
           <v-avatar size="136" align="center">
-            <img src="img/products/murielle.jpg" style="margin-bottom: 10px" />
+            <img src="../../assets/murielle.jpg" style="margin-bottom: 10px" />
           </v-avatar>
 
           <br />
