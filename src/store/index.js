@@ -39,9 +39,7 @@ export default new Vuex.Store({
       }
     },
     updateprofil(perso) {
-      this.pfl=perso,
-      console.log(this.pfl)
-    }
+      this.pfl=perso    }
   },
   actions: {}
 })

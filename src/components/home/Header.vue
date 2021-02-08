@@ -7,12 +7,12 @@
     <v-container class="fill-height">
       <v-row align="center" justify="center">
         <img
-          src="../../../public/img/video.jpg"
+          src="../../assets/video.jpg"
           alt="Vidéo de présentation Tut'Up"
           width="100%"
         />
         <img
-          src="../../../public/img/down.png"
+          src="../../assets/down.png"
           alt="scrollDown"
           width="5%"
           style="margin: 20px"
@@ -22,7 +22,7 @@
           Bienvenue sur Tut'up, le rendez-vous de la réussite.
         </h1> -->
         <div class="flexContain mainHome">
-          <img src="../../../public/img/qqtutup.jpg" />
+          <img src="../../assets/qqtutup.jpg" />
           <div>
             <h2>Qu'est-ce que Tut'Up ?</h2>
             <div>
@@ -43,7 +43,7 @@
           <div class="flexContain">
             <div class="valeur">
               <img
-                src="../../../public/img/reactivite.png"
+                src="../../assets/reactivite.png"
                 alt="Valeur1"
                 width="50%"
               />
@@ -57,7 +57,7 @@
             </div>
             <div class="valeur">
               <img
-                src="../../../public/img/confiance.png"
+                src="../../assets/icons/confiance.png"
                 alt="Valeur2"
                 width="50%"
               />
@@ -71,7 +71,7 @@
             </div>
             <div class="valeur">
               <img
-                src="../../../public/img/transmission.png"
+                src="../../assets/transmission.png"
                 alt="Valeur3"
                 width="50%"
               />
@@ -106,7 +106,7 @@
               Notre FAQ
             </v-btn>
           </div>
-          <img src="../../../public/img/titre.jpg" width="40%" />
+          <img src="../../assets/titre.jpg" width="40%" />
         </div>
       </v-row>
     </v-container>
