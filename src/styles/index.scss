@@ -160,6 +160,16 @@ $lightColor: #07d3ff;
     }
 }
 
+// === Eleve ===
+
+.v-btn-toggle {
+    >.v-btn--active {
+        background-image: linear-gradient($accentColor, lighten($accentColor, 20%)) !important;
+        border-radius: 10% !important;
+
+    }
+}
+
 // ==================
 // === Messagerie ===
 // ==================

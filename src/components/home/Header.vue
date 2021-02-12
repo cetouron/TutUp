@@ -6,11 +6,32 @@
   >
     <v-container class="fill-height">
       <v-row align="center" justify="center">
-        <img
+        <!-- <img
           src="../../assets/video.jpg"
           alt="Vidéo de présentation Tut'Up"
           width="100%"
-        />
+        /> -->
+
+        <div style="width: 100vw !important">
+          <div style="padding-top: 56.25%; position: relative">
+            <iframe
+              class="youtube"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100% !important;
+                width: 100% !important;
+              "
+              src="https://www.youtube.com/embed/SlSpXmzvHLQ?controls=0&autoplay=1&mute=0"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              autoplay
+            ></iframe>
+          </div>
+        </div>
+
         <img
           src="../../assets/down.png"
           alt="scrollDown"

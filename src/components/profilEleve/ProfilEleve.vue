@@ -24,6 +24,16 @@
         <br />
 
         <v-btn-toggle v-model="text" tile color="deep-purple accent-3" group>
+          <div
+            style="
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            "
+          >
+            Type de Profil :
+          </div>
           <v-btn value="parent"> Parent </v-btn>
 
           <v-btn value="eleve"> Elève </v-btn>
@@ -82,11 +92,11 @@
         </v-col>
       </v-col>
     </v-card>
-          <v-col>
-             <v-btn @click="deco()" class="red">
-            <span large color="blue darken-2"> Déconnexion</span>
-          </v-btn>
-      </v-col>
+    <v-col>
+      <v-btn @click="deco()" class="red">
+        <span large color="blue darken-2"> Déconnexion</span>
+      </v-btn>
+    </v-col>
   </v-row>
 </template>
 
@@ -123,9 +133,8 @@ export default {
       this.nbEnft = this.nbEnft + 1;
     },
     deco: function () {
-      this.$store.state.pfl = 'pasco';
-              this.$router.push({name: 'home'})
-
+      this.$store.state.pfl = "pasco";
+      this.$router.push({ name: "home" });
     },
   },
 };

@@ -16,12 +16,12 @@
         </v-avatar>
 
         <br />
-        <h1> <span class="black--text text--lighten-2">
-              {{ product.name }} </span
-            ></h1>
-            <span class="black--text text--lighten-2 caption mr-1">
-              ({{ product.local }}) </span
-            >
+        <h1>
+          <span class="black--text text--lighten-2"> {{ product.name }} </span>
+        </h1>
+        <span class="black--text text--lighten-2 caption mr-1">
+          ({{ product.local }})
+        </span>
 
         <v-row align="center" justify="center">
           <v-card-actions class="pa-4" align="center">
@@ -55,35 +55,37 @@
 
         <v-row>
           <v-col>
-            <v-btn to='chat' class="couleurPrimaire">Contacter</v-btn>
+            <v-btn to="chat" class="couleurPrimaire">Contacter</v-btn>
           </v-col>
           <v-col>
-      <v-dialog v-model="dialog" width="600px" hight="200px">
-        <template v-slot:activator="{ on, attrs }">
-          <v-btn class="couleurPrimaire btnCard" v-bind="attrs" v-on="on">
-            Signaler
-          </v-btn>
-        </template>
-        <v-card>
-            <h1 class="black--text text--lighten-2" align="center">Vous voulez signaler {{product.name}}</h1>
-          <br>
-           <v-textarea
-              v-model='raison'
-              auto-grow
-              filled
-              color="deep-purple"
-              label="Pourquoi ?"
-              rows="1"
-              max-widht="200"
-            ></v-textarea>
+            <v-dialog v-model="dialog" width="600px" hight="200px">
+              <template v-slot:activator="{ on, attrs }">
+                <v-btn class="couleurPrimaire btnCard" v-bind="attrs" v-on="on">
+                  Signaler
+                </v-btn>
+              </template>
+              <v-card>
+                <h1 class="black--text text--lighten-2" align="center">
+                  Vous voulez signaler {{ product.name }}
+                </h1>
+                <br />
+                <v-textarea
+                  v-model="raison"
+                  auto-grow
+                  filled
+                  color="deep-purple"
+                  label="Pourquoi ?"
+                  rows="1"
+                  max-widht="200"
+                ></v-textarea>
 
-            <v-btn @click.stop="dialog=false" class="red">
-            Signaler
-          </v-btn>
-        <!-- <Signaler :product="product" /> -->
-        </v-card>
-      </v-dialog>
-        </v-col>
+                <v-btn @click.stop="dialog = false" class="red">
+                  Signaler
+                </v-btn>
+                <!-- <Signaler :product="product" /> -->
+              </v-card>
+            </v-dialog>
+          </v-col>
         </v-row>
 
         <br />
@@ -158,7 +160,6 @@
 
         <span class="text--lighten-2 mr-1" align="center">
           {{ product.bio }}
-          
         </span>
 
         <h1 align="center">Autre</h1>
@@ -166,14 +167,11 @@
         <span class="text--lighten-2 mr-1" align="center">
           {{ product.autres }}
         </span>
-      <br>
-          <h1 align="center">Tarif : {{ product.price }}€</h1>
+        <br />
+        <h1 align="center">Tarif : {{ product.price }}€</h1>
 
         <span class="text--lighten-2 mr-1" align="center">
-      
-         <h4>
-              Discutable avec le tuteur
-            </h4>
+          <h4></h4>
         </span>
       </v-col>
     </v-col>
